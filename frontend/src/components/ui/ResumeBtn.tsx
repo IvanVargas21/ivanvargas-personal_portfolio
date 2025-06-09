@@ -1,7 +1,8 @@
 import React from 'react';
+import { Download } from 'lucide-react';
 
 const ResumeBtn: React.FC = () => {
-  const PDF_FILE_URL: string = '/ivanvargas-portfolio/VargasIvanChristopherD._Resume.pdf';
+  const PDF_FILE_URL: string = '/Ivan_Vargas_Resume_2025.pdf';
 
   const downloadFileAtURL = (url: string): void => {
     try {
@@ -18,16 +19,15 @@ const ResumeBtn: React.FC = () => {
   };
 
   return (
-    <div className="pt-7">
-      <button
-        onClick={() => downloadFileAtURL(PDF_FILE_URL)}
-        className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg border-2 border-green-500 group hover:shadow-green-glow transition-shadow duration-300 hover:-translate-y-2"
-      >
-        <span className="text-base 2xl:text-lg relative px-5 py-2.5 transition-all ease-in duration-300 bg-white dark:bg-gray-900 rounded-md text-white group-hover:text-green-500">
-          Download Resume
-        </span>
-      </button>
-    </div>
+    <button
+      onClick={() => downloadFileAtURL(PDF_FILE_URL)}
+      className="group relative inline-flex items-center justify-center px-6 py-3 text-base font-medium transition-all duration-300 ease-in-out"
+    >
+      <div className="relative flex items-center gap-2 px-6 py-3 bg-black border-2 border-rose-400 rounded-lg text-white hover:text-rose-400 transition-colors duration-300">
+        <Download className="w-5 h-5" />
+        <span>Download Resume</span>
+      </div>
+    </button>
   );
 };
 

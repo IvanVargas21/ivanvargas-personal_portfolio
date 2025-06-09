@@ -1,5 +1,3 @@
-'use client'
-
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -70,4 +68,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
