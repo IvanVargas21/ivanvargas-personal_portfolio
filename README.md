@@ -6,10 +6,9 @@ This repository contains the development progress of my **Personal Portfolio Web
 
 - ✅ Hero Section
 - ✅ Tech Stack Section
-- ⏳ About Me Section (Coming soon)
-- ⏳ Projects Section (Coming soon)
+- ✅ Projects Section (Coming soon)
 - ⏳ Contact Form with Email Integration (Coming soon)
-- ⏳ Responsive Design Improvements
+- ✅ Responsive Design Improvements
 - ⏳ Backend Integration (Express.js + Neon Postgres planned)
 
 > ⚠️ **Note:** This project is still under active development. I'm continuously working on it and plan to complete the first fully functional version soon.
