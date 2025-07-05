@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Portfolio",
-  description: "Your personal portfolio website",
+  title: "Ivan Vargas - Full Stack Developer",
+  description: "Full Stack Developer specializing in Next.js, React.js, TypeScript, and Express.js. Crafting meaningful applications that solve real problems with pixel-perfect precision.",
 };
 
 export default function RootLayout({
