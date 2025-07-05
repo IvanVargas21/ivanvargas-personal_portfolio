@@ -3,6 +3,7 @@ import StickyLabel from "@/components/ui/StickyLabel";
 import HeroSection from "@/components/sections/Hero";
 import TechStackSection from "@/components/sections/Tech";
 import ProjectSection from "@/components/sections/Project";
+import ContactSection from "@/components/sections/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
                   <HeroSection/>
                   <TechStackSection/>
                   <ProjectSection/>
+                  <ContactSection/>
               </div>
           </div>
     </div>
