@@ -36,6 +36,11 @@ Below is a screenshot of the current state of the website:
 ![image](https://github.com/user-attachments/assets/427336a1-5e9b-4ba6-837f-a4ed17b27bc7)
 ![image](https://github.com/user-attachments/assets/2776a247-b568-4240-921e-f89a8994b159)
 ![image](https://github.com/user-attachments/assets/78a5f20e-fec2-4f83-9ab9-f74feae81acf)
+![image](https://github.com/user-attachments/assets/28bd2f89-07be-4731-ad00-29100e3e3896)
+![image](https://github.com/user-attachments/assets/73c17c63-4e02-4f69-b398-cfd62dee69e3)
+![image](https://github.com/user-attachments/assets/9382ccfd-083d-402d-92ae-29a8aadbab82)
+![image](https://github.com/user-attachments/assets/58cc6366-b690-4c12-8d62-040cb2e86a88)
+
 
 
 Thanks for visiting! I'm always open to feedback and improvement suggestions.
