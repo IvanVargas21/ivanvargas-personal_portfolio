@@ -33,39 +33,43 @@ import axiosIcon from '../../public/assets/vectors/axios.svg';
 import zodIcon from '../../public/assets/vectors/zod.svg';
 import zustandIcon from '../../public/assets/vectors/zustand.svg';
 import postmanIcon from '../../public/assets/vectors/postman.svg';
-
+import expressIcon from '../../public/assets/vectors/express.svg';
+import prismaIcon from '../../public/assets/vectors/prisma.svg'
+import mssqlIcon from '../../public/assets/vectors/mssql.svg'
 
 export const techIcons = {
-  php: { src: phpIcon, title: 'PHP', alt: 'PHP' },
-  html: { src: htmlIcon, title: 'HTML', alt: 'HTML' },
-  xampp: { src: xamppIcon, title: 'XAMPP', alt: 'XAMPP' },
-  bootstrap: { src: bootstrapIcon, title: 'Bootstrap', alt: 'Bootstrap' },
-  css: { src: cssIcon, title: 'CSS', alt: 'CSS' },
-  javascript: { src: javascriptIcon, title: 'JavaScript', alt: 'JavaScript' },
-  jasmine: { src: jasmineIcon, title: 'Jasmine', alt: 'Jasmine' },
-  tailwind: { src: tailwindIcon, title: 'Tailwind CSS', alt: 'Tailwind CSS' },
-  typescript: { src: tsIcon, title: 'TypeScript', alt: 'TypeScript' },
-  nextjs: { src: nextjsIcon, title: 'Next.js', alt: 'Next.js' },
-  react: { src: reactIcon, title: 'React.js', alt: 'React.js' },
-  mui: { src: muiIcon, title: 'Material UI', alt: 'Material UI' },
-  axios: { src: axiosIcon, title: 'Axios', alt: 'Axios' },
-  zod: { src: zodIcon, title: 'Zod', alt: 'Zod' },
-  zustand: { src: zustandIcon, title: 'Zustand', alt: 'Zustand' },
-  postman: { src: postmanIcon, title: 'Postman', alt: 'Postman' },
-};
-
+    php: { src: phpIcon, title: 'PHP', alt: 'PHP' },
+    html: { src: htmlIcon, title: 'HTML', alt: 'HTML' },
+    xampp: { src: xamppIcon, title: 'XAMPP', alt: 'XAMPP' },
+    bootstrap: { src: bootstrapIcon, title: 'Bootstrap', alt: 'Bootstrap' },
+    css: { src: cssIcon, title: 'CSS', alt: 'CSS' },
+    javascript: { src: javascriptIcon, title: 'JavaScript', alt: 'JavaScript' },
+    jasmine: { src: jasmineIcon, title: 'Jasmine', alt: 'Jasmine' },
+    tailwind: { src: tailwindIcon, title: 'Tailwind CSS', alt: 'Tailwind CSS' },
+    typescript: { src: tsIcon, title: 'TypeScript', alt: 'TypeScript' },
+    nextjs: { src: nextjsIcon, title: 'Next.js', alt: 'Next.js' },
+    react: { src: reactIcon, title: 'React.js', alt: 'React.js' },
+    mui: { src: muiIcon, title: 'Material UI', alt: 'Material UI' },
+    axios: { src: axiosIcon, title: 'Axios', alt: 'Axios' },
+    zod: { src: zodIcon, title: 'Zod', alt: 'Zod' },
+    zustand: { src: zustandIcon, title: 'Zustand', alt: 'Zustand' },
+    postman: { src: postmanIcon, title: 'Postman', alt: 'Postman' },
+    express: { src: expressIcon, title: 'Express.js', alt: 'Express.js'},
+    prisma: { src: prismaIcon, title: 'Prisma', alt: 'Prisma'},
+    mssql: { src: mssqlIcon, title: 'MSSQLServer', alt: 'MSSQLServer'}
+}
 // projectsDetails
 export const projectsDetails = [
     {
-        title: "Government Operations Management System",
+        title: "Government Agency Operations Management System",
         slug: "government-operations-management-system",
         image: "n/a",
         alt: "Government Operations Management System",
-        description: "I co-developed an operations platform for Philippine government services using Next.js and TypeScript. Translated Figma designs into responsive MUI components, integrated REST APIs with Axios, and implemented Zustand for state management. Built dynamic dashboards with real-time bar/line graphs that visualized aggregated backend data based on user inputs. Collaborated in Agile environment with backend and UI/UX teams, conducting API testing via Postman.",
+        description: "I co-developed an Operations Management System for a Philippine Government Agency using Next.js and TypeScript. I translated Figma designs into responsive MUI components, integrated REST APIs with Axios, and implemented Zustand for state management. I built dynamic dashboards featuring real-time bar/line graphs that visualized aggregated backend data based on user inputs, and collaborated in an Agile environment with backend and UI/UX teams while conducting API testing via Postman.",
         codeLink: 'n/a private repo',
         demo: 'n/a private repo',
-        techStack: [tsIcon, nextjsIcon, reactIcon, muiIcon, tailwindIcon, axiosIcon, zodIcon, zustandIcon, postmanIcon],
-        techs: ['Typescript', 'Next.js', 'React.js', 'Material UI', 'Tailwind CSS', 'Axios', 'Zod', 'Zustand', 'Postman']
+        techStack: [tsIcon, nextjsIcon, reactIcon, muiIcon, tailwindIcon, axiosIcon, zodIcon, zustandIcon, postmanIcon, expressIcon, prismaIcon, mssqlIcon],
+        techs: ['Typescript', 'Next.js', 'React.js', 'Material UI', 'Tailwind CSS', 'Axios', 'Zod', 'Zustand', 'Postman', 'Express.js', 'Prisma', 'Microsoft SQL']
     },
     {
         title: "Sales and Inventory System",
