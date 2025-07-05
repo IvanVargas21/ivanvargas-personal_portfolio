@@ -38,7 +38,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
         {/* Project Image */}
         <div className="mb-8">
-          {project.title === "Government Operations Management System" ? (
+          {project.title === "Government Agency Operations Management System" ? (
             // Confidential project placeholder
             <div className="w-full h-64 bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl flex items-center justify-center border-2 border-dashed border-gray-600">
               <div className="text-center">
