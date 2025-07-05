@@ -1,10 +1,10 @@
 'use client'
 
 import React from 'react';
-import ResumeBtn from './ui/ResumeBtn';
-import TypeWriter from './ui/TypeWriter';
+import ResumeBtn from '../ui/ResumeBtn';
+import TypeWriter from '../ui/TypeWriter';
 // import { WavingHand } from 'lucide-react';
-import { Spotlight } from './ui/Spotlight';
+import { Spotlight } from '../ui/Spotlight';
 
 const HeroSection: React.FC = () => {
   return (
