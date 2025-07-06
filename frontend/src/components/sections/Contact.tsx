@@ -76,19 +76,19 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <header className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            <span className="text-rose-400 font-bebas mr-2">04.</span>
+            <span className="text-rose-400 font-bebas mr-2">05.</span>
             Contacts
           </h2>
           <div className="w-24 h-1 bg-rose-500 mx-auto"></div>
         </header>
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 bg-black/60 rounded-2xl shadow-2xl p-8 backdrop-blur-lg border border-rose-400/10">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 bg-black/60 rounded-2xl shadow-2xl p-4 sm:p-6 md:p-8 backdrop-blur-lg border border-rose-400/10">
           {/* Left side: Intro message */}
           <div className="flex flex-col justify-center items-start">
-            <h2 className="text-3xl font-extrabold text-white mb-4">Let&apos;s Get in Touch</h2>
-            <p className="text-lg text-gray-400 mb-6">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">Let&apos;s Get in Touch</h2>
+            <p className="text-base sm:text-lg text-gray-400 mb-6">
               I&apos;m available to connect by <span className="text-rose-400 font-semibold">email</span> or through <span className="text-rose-400 font-semibold">social media</span>. Feel free to reach out, and let&apos;s chat!
             </p>
-            <div className="flex gap-6 mt-2">
+            <div className="flex gap-4 sm:gap-6 mt-2">
               <a href="https://www.facebook.com/profile.php?id=100014115240375" className="group" target="_blank" rel="noopener noreferrer">
                 <div className="bg-gray-800 rounded-full p-3 shadow-lg hover:bg-rose-400 transition-colors">
                   <img src="/assets/vectors/facebook.svg" alt="Facebook" className="w-6 h-6 group-hover:scale-110 transition-transform" />
@@ -113,7 +113,7 @@ const ContactSection = () => {
           </div>
 
           {/* Right side: Contact Form */}
-          <form onSubmit={onSubmit} className="bg-gradient-to-br from-gray-900/80 to-black/80 rounded-2xl shadow-xl p-8 border border-rose-400/10">
+          <form onSubmit={onSubmit} className="bg-gradient-to-br from-gray-900/80 to-black/80 rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 border border-rose-400/10">
             <h2 className="mb-6 text-2xl font-bold text-white text-center">Contact Me</h2>
             
             {submitError && (
@@ -128,7 +128,7 @@ const ContactSection = () => {
                 name="name"
                 type="text"
                 id="name"
-                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-2.5"
+                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-3 sm:p-2.5"
                 placeholder="Full Name"
               />
               {errors.name && <p className="text-rose-400 text-xs mt-1">{errors.name}</p>}
@@ -139,7 +139,7 @@ const ContactSection = () => {
                 name="email"
                 type="email"
                 id="email"
-                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-2.5"
+                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-3 sm:p-2.5"
                 placeholder="youremail@example.com"
               />
               {errors.email && <p className="text-rose-400 text-xs mt-1">{errors.email}</p>}
@@ -150,7 +150,7 @@ const ContactSection = () => {
                 name="subject"
                 type="text"
                 id="subject"
-                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-2.5"
+                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-3 sm:p-2.5"
                 placeholder="Subject"
               />
               {errors.subject && <p className="text-rose-400 text-xs mt-1">{errors.subject}</p>}
@@ -161,7 +161,7 @@ const ContactSection = () => {
                 name="message"
                 id="message"
                 rows={5}
-                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-2.5"
+                className="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-3 sm:p-2.5"
                 placeholder="Leave a message..."
               ></textarea>
               {errors.message && <p className="text-rose-400 text-xs mt-1">{errors.message}</p>}
