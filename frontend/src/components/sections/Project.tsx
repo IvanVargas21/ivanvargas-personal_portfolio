@@ -10,7 +10,7 @@ const ProjectSection = () => {
     <section id="projects" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">03 Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">04 Projects</h2>
           <div className="w-24 h-1 bg-rose-500 mx-auto"></div>
         </div>
 
@@ -25,7 +25,7 @@ const ProjectSection = () => {
               <div className="relative z-10">
                 {/* Project Image or Confidential Placeholder */}
                 <div className="relative overflow-hidden rounded-lg mb-4">
-                  {project.title === "Government Operations Management System" ? (
+                  {project.title === "Government Agency Operations Management System" ? (
                     // Confidential project placeholder
                     <div className="w-full h-48 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-600">
                       <div className="text-center">
