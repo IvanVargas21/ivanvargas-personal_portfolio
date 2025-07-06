@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ivan Vargas - Full Stack Developer",
+  title: "Ivan Vargas",
   description: "Full Stack Developer specializing in Next.js, React.js, TypeScript, and Express.js. Crafting meaningful applications that solve real problems with pixel-perfect precision.",
 };
 
