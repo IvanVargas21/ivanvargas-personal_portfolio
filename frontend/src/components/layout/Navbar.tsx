@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav id="navbar" className="sticky top-0 z-50 px-10 py-3 lg:px-14 lg:py-2 backdrop-blur-lg border-b border-neutral-700/80 w-full lg:h-16 2xl:h-14 bg-black/90">
+    <nav id="navbar" className="sticky top-0 z-50 px-10 py-3 lg:px-14 lg:py-2 backdrop-blur-lg border-b border-neutral-700/80 w-full lg:h-16 2xl:h-14 ">
       <div className="container px-4 mx-auto relative text-sm lg:pt-1">
         <div className="flex justify-between items-center">
           <p className="text-lg 2xl:text-2xl tracking-tight text-white">ivan<span className="text-rose-400"> vargas</span></p>
