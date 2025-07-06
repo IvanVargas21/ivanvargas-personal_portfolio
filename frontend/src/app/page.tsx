@@ -7,6 +7,7 @@ import TechStackSection from "@/components/sections/Tech";
 import ProjectSection from "@/components/sections/Project";
 import ContactSection from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
+import BackToTopButton from "@/components/ui/BackToTopButton";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
                   <ContactSection/>
               </div>
               <Footer/>
+              <BackToTopButton/>
           </div>
     </div>
   );
