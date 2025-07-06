@@ -1,11 +1,19 @@
 import { projectsDetails } from '@/constants/projects';
 import Link from 'next/link';
 import { Lock } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-black py-20">
       <div className="container mx-auto px-4">
+        <Link 
+          href="/"
+          className="inline-flex items-center gap-2 text-rose-400 hover:text-rose-300 transition-colors mb-8"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Home
+        </Link>
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             My Projects
@@ -66,6 +74,10 @@ export default function ProjectsPage() {
               </div>
             </Link>
           ))}
+        </div>
+        {/* Coming Soon Message */}
+        <div className="text-center mt-8">
+          <p className="text-rose-400 text-lg font-medium">More Projects Coming Soon!</p>
         </div>
       </div>
     </div>
