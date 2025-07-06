@@ -16,6 +16,16 @@
   }
 }
 
+/* Custom text selection styles */
+::selection {
+  background-color: rgb(244 63 94); /* rose-500 */
+  color: white; /* White text for better contrast */
+}
+
+::-moz-selection {
+  background-color: rgb(244 63 94); /* rose-500 for Firefox */
+  color: white; /* White text for better contrast */
+}
 
 body {
   background-color: black;
