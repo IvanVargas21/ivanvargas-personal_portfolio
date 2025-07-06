@@ -3,7 +3,6 @@
 import React from 'react';
 import ResumeBtn from '../ui/ResumeBtn';
 import TypeWriter from '../ui/TypeWriter';
-// import { WavingHand } from 'lucide-react';
 import { Spotlight } from '../ui/Spotlight';
 
 const HeroSection: React.FC = () => {
@@ -22,8 +21,6 @@ const HeroSection: React.FC = () => {
               delay={100} 
               className="text-2xl sm:text-3xl md:text-4xl font-bold text-rose-400" 
             />
-            {/* <WavingHand className="w-6 h-6 sm:w-8 sm:h-8 text-rose-400 animate-wave" 
-            /> */}
           </div>
 
           {/* Title with Glow Effect */}
