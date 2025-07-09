@@ -1,29 +1,23 @@
-# 🧑‍💻 Personal Portfolio Website (In Progress)
+# 🧑‍💻 Personal Portfolio Website
 
-This repository contains the development progress of my **Personal Portfolio Website**, which is currently a work in progress. I'm building it as a **Full Stack Web Application** to showcase my skills, experience, and projects.
+This repository contains the development progress of my **Personal Portfolio Website**, which is currently a work in progress.
 
 ## 🔨 Current Status
 
 - ✅ Hero Section
+- ✅ Tech Experience Section
 - ✅ Tech Stack Section
-- ✅ Projects Section (Coming soon)
-- ⏳ Contact Form with Email Integration (Coming soon)
-- ✅ Responsive Design Improvements
-- ⏳ Backend Integration (Express.js + Neon Postgres planned)
-
-> ⚠️ **Note:** This project is still under active development. I'm continuously working on it and plan to complete the first fully functional version soon.
+- ✅ Projects Section
+- ✅ Contact Section
 
 ## 🧰 Tech Stack
 
-- **Frontend**: Next.js, React.js, Typescript, and Tailwind CSS
-- **Backend (Planned)**: Express.js + Neon Postgres
-- **Database (Planned)**: Postgres
-- **Other Tools**: Postman, Git, and GitHub
+- **Frontend**: Next.js, React.js, Typescript, and Tailwind CSS, Axios, Zod, React-Github-Calendar
+- **Other Tools**:Git, and GitHub
 
 ## 📌 Goals for This Project
 
 - Build a responsive and clean portfolio website to represent my skills and projects
-- Practice Full Stack development using modern technologies
 - Deploy the application online and use it as part of my job application materials
 
 Below is a screenshot of the current state of the website:
@@ -39,7 +33,7 @@ Below is a screenshot of the current state of the website:
 ![image](https://github.com/user-attachments/assets/73c17c63-4e02-4f69-b398-cfd62dee69e3)
 ![image](https://github.com/user-attachments/assets/9382ccfd-083d-402d-92ae-29a8aadbab82)
 ![image](https://github.com/user-attachments/assets/58cc6366-b690-4c12-8d62-040cb2e86a88)
-
+![image](https://github.com/user-attachments/assets/ce34b912-3e3f-4cf5-abd2-a627ec107f72)
 
 
 Thanks for visiting! I'm always open to feedback and improvement suggestions.
