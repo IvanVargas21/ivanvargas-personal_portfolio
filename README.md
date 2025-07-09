@@ -1,29 +1,23 @@
-# 🧑‍💻 Personal Portfolio Website (In Progress)
+# 🧑‍💻 Personal Portfolio Website
 
-This repository contains the development progress of my **Personal Portfolio Website**, which is currently a work in progress. I'm building it as a **Full Stack Web Application** to showcase my skills, experience, and projects.
+This repository contains the development progress of my **Personal Portfolio Website**, which is currently a work in progress.
 
 ## 🔨 Current Status
 
 - ✅ Hero Section
+- ✅ Tech Experience Section
 - ✅ Tech Stack Section
-- ✅ Projects Section (Coming soon)
-- ⏳ Contact Form with Email Integration (Coming soon)
-- ✅ Responsive Design Improvements
-- ⏳ Backend Integration (Express.js + Neon Postgres planned)
-
-> ⚠️ **Note:** This project is still under active development. I'm continuously working on it and plan to complete the first fully functional version soon.
+- ✅ Projects Section
+- ✅ Contact Section
 
 ## 🧰 Tech Stack
 
-- **Frontend**: Next.js, React.js, Typescript, and Tailwind CSS
-- **Backend (Planned)**: Express.js + Neon Postgres
-- **Database (Planned)**: Postgres
-- **Other Tools**: Postman, Git, and GitHub
+- **Frontend**: Next.js, React.js, Typescript, and Tailwind CSS, Axios, Zod, React-Github-Calendar
+- **Other Tools**:Git, and GitHub
 
 ## 📌 Goals for This Project
 
 - Build a responsive and clean portfolio website to represent my skills and projects
-- Practice Full Stack development using modern technologies
 - Deploy the application online and use it as part of my job application materials
 
 Below is a screenshot of the current state of the website:
