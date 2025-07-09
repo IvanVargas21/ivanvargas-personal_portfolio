@@ -104,8 +104,8 @@ export const projectsDetails = [
         techs: ['JavaScript', 'React.js', 'Tailwind CSS']
     },
     {
-        title: "CLSF Church Landing Page",
-        slug: "church-landing-page",
+        title: "CLSF Church Website",
+        slug: "church-web",
         image: clsf,
         description: "In collaboration with a groupmate, I contributed to creating a webpage for Christ the Living Stone Church as part of our Software Engineering course. My key role involved integrating a chatbot system and designing donation forms. These forms allow users to submit their email addresses for donations, triggering automated confirmation emails sent to both the userand the church admin.",
         codeLink: "https://github.com/IvanVargas21/ChurchOrganization_Webpage",
