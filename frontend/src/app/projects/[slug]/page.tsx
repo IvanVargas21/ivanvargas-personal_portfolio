@@ -3,10 +3,10 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Github, Lock } from 'lucide-react';
 import Image from 'next/image'
-type PageProps = { params: { slug: string } };
 
-export default function ProjectPage({ params }: PageProps) {
-  const project = projectsDetails.find(p => p.slug === params.slug);
+export default async function ProjectPage({ params }: { params: { slug: string } }) {
+  const { slug } = await params;
+  const project = projectsDetails.find(p => p.slug === slug);
 
   if (!project) {
     notFound();
@@ -71,6 +71,8 @@ export default function ProjectPage({ params }: PageProps) {
                   <Image
                     src={tech.src}
                     alt={project.techs[index] || 'Technology'}
+                    width={24}
+                    height={24}
                     className="w-6 h-6"
                   />
                   <span className="text-gray-300 text-sm">
