@@ -33,7 +33,7 @@ Below is a screenshot of the current state of the website:
 ![image](https://github.com/user-attachments/assets/73c17c63-4e02-4f69-b398-cfd62dee69e3)
 ![image](https://github.com/user-attachments/assets/9382ccfd-083d-402d-92ae-29a8aadbab82)
 ![image](https://github.com/user-attachments/assets/58cc6366-b690-4c12-8d62-040cb2e86a88)
-
+![image](https://github.com/user-attachments/assets/ce34b912-3e3f-4cf5-abd2-a627ec107f72)
 
 
 Thanks for visiting! I'm always open to feedback and improvement suggestions.
