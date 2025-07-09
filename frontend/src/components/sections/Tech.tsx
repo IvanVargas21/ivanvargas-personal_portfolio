@@ -59,6 +59,8 @@ const Tech = () => {
                   <Image
                     src={`/assets/vectors/${item.src}`}
                     alt={item.alt}
+                    width={64}
+                    height={64}
                     className="w-full h-full object-contain filter group-hover:brightness-110"
                   />
                 </div>

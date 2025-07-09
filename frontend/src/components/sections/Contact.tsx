@@ -92,22 +92,22 @@ const ContactSection = () => {
             <div className="flex gap-4 sm:gap-6 mt-2">
               <a href="https://www.facebook.com/profile.php?id=100014115240375" className="group" target="_blank" rel="noopener noreferrer">
                 <div className="bg-gray-800 rounded-full p-3 shadow-lg hover:bg-rose-400 transition-colors">
-                  <Image src="/assets/vectors/facebook.svg" alt="Facebook" className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                  <Image src="/assets/vectors/facebook.svg" alt="Facebook" width={24} height={24} className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
               </a>
               <a href="mailto:icvargasx21@gmail.com" className="group" target="_blank" rel="noopener noreferrer">
                 <div className="bg-gray-800 rounded-full p-3 shadow-lg hover:bg-rose-400 transition-colors">
-                  <Image src="/assets/vectors/gmail.svg" alt="Gmail" className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                  <Image src="/assets/vectors/gmail.svg" alt="Gmail" width={24} height={24} className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
               </a>
               <a href="https://github.com/IvanVargas21" className="group" target="_blank" rel="noopener noreferrer">
                 <div className="bg-gray-800 rounded-full p-3 shadow-lg hover:bg-rose-400 transition-colors">
-                  <Image src="/assets/vectors/github.svg" alt="GitHub" className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                  <Image src="/assets/vectors/github.svg" alt="GitHub" width={24} height={24} className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
               </a>
               <a href="https://www.linkedin.com/in/ivan-christopher-vargas-0a6999325/" className="group" target="_blank" rel="noopener noreferrer">
                 <div className="bg-gray-800 rounded-full p-3 shadow-lg hover:bg-rose-400 transition-colors">
-                  <Image src="/assets/vectors/linkedin.svg" alt="LinkedIn" className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                  <Image src="/assets/vectors/linkedin.svg" alt="LinkedIn" width={24} height={24} className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </div>
               </a>
             </div>

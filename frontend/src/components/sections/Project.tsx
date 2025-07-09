@@ -40,6 +40,8 @@ const ProjectSection = () => {
                     <Image
                       src={typeof project.image === 'string' ? project.image : project.image.src}
                       alt={project.alt || project.title}
+                      width={384}
+                      height={192}
                       className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                     />
                   )}
@@ -58,14 +60,15 @@ const ProjectSection = () => {
                 </div>
 
                 {/* Tech Stack */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mt-4 mb-4">
                   {project.techStack.map((tech, index) => (
                     <Image
                       key={index}
                       src={tech.src}
-                      alt={tech.alt}
-                      title={tech.title}
-                      className="w-6 h-6 opacity-80 hover:opacity-100 transition-opacity"
+                      alt={tech.alt || `${project.title} tech stack`}
+                      width={24}
+                      height={24}
+                      className="w-6 h-6"
                     />
                   ))}
                 </div>

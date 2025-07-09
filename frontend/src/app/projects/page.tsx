@@ -44,6 +44,8 @@ export default function ProjectsPage() {
                     <Image
                       src={typeof project.image === 'string' ? project.image : project.image.src}
                       alt={project.alt || project.title}
+                      width={384}
+                      height={192}
                       className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                     />
                   )}
@@ -56,7 +58,7 @@ export default function ProjectsPage() {
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4 mb-4">
                   {project.techStack.map((tech, index) => (
-                    <Image
+                    <img
                       key={index}
                       src={tech.src}
                       alt={`${project.title} tech stack`}

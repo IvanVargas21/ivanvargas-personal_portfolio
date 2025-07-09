@@ -3,13 +3,9 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Github, Lock } from 'lucide-react';
 import Image from 'next/image'
-interface ProjectPageProps {
-  params: {
-    slug: string;
-  };
-}
+type PageProps = { params: { slug: string } };
 
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default function ProjectPage({ params }: PageProps) {
   const project = projectsDetails.find(p => p.slug === params.slug);
 
   if (!project) {
@@ -51,6 +47,8 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             <Image
               src={typeof project.image === 'string' ? project.image : project.image.src}
               alt={project.alt || project.title}
+              width={384}
+              height={256}
               className="w-full rounded-xl shadow-2xl"
             />
           )}
