@@ -5,9 +5,13 @@ import { techData } from '../../constants/techData';
 
 const Tech = () => {
   const [activeTab, setActiveTab] = useState<'main' | 'all'>('main');
-  const filteredTech = activeTab === 'main' 
+  const filteredTech = activeTab === 'main'
     ? techData.filter(item => item.category === 'main')
-    : techData; // Show all technologies when 'all' is selected
+    : Array.from(
+        new Map(
+          techData.map(item => [item.title, item])
+        ).values()
+      );
 
   return (
     <section id="tech" className="py-20 bg-black">
