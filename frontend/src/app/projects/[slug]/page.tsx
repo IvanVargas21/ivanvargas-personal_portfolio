@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Github, Lock } from 'lucide-react';
 import Image from 'next/image'
 
-export default async function ProjectPage({ params }: any) {
+export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const project = projectsDetails.find(p => p.slug === slug);
 
