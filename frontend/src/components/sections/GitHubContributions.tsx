@@ -2,7 +2,7 @@
 
 import React from 'react';
 import GitHubCalendar from '../ui/GitHubCalendar';
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 
 const GitHubContributions = () => {
   return (
@@ -29,7 +29,7 @@ const GitHubContributions = () => {
             {/* GitHub Stats */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-4 border border-rose-400/20">
-                <Image
+                <img
                   width={495}
                   height={195}
                   src="https://github-readme-stats.vercel.app/api?username=IvanVargas21&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&text_color=ffffff&icon_color=ec4899"
@@ -50,7 +50,7 @@ const GitHubContributions = () => {
               </div>
               
               <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-4 border border-rose-400/20">
-                <Image 
+                <img 
                   src="https://github-readme-streak-stats.herokuapp.com/?user=IvanVargas21&theme=radical&hide_border=true&background=0d1117&stroke=ec4899&ring=ec4899&fire=ec4899&currStreakNum=ffffff&currStreakLabel=ec4899&sideNums=ffffff&sideLabels=ec4899&dates=ffffff"
                   alt="GitHub Streak Stats"
                   width={495}
