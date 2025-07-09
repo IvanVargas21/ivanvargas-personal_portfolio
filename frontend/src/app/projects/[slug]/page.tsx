@@ -2,7 +2,7 @@ import { projectsDetails } from '@/constants/projects';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, Github, Lock } from 'lucide-react';
-
+import Image from 'next/image'
 interface ProjectPageProps {
   params: {
     slug: string;
@@ -48,7 +48,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               </div>
             </div>
           ) : (
-            <img
+            <Image
               src={typeof project.image === 'string' ? project.image : project.image.src}
               alt={project.alt || project.title}
               className="w-full rounded-xl shadow-2xl"
@@ -70,7 +70,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             <div className="flex flex-wrap gap-4">
               {project.techStack.map((tech, index) => (
                 <div key={index} className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-lg">
-                  <img
+                  <Image
                     src={tech.src}
                     alt={project.techs[index] || 'Technology'}
                     className="w-6 h-6"

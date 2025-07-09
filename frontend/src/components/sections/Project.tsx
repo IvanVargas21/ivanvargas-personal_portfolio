@@ -4,6 +4,7 @@ import React from 'react';
 import { projectsDetails } from '../../constants/projects';
 import Link from 'next/link';
 import { Lock, ExternalLink, Github } from 'lucide-react';
+import Image from 'next/image';
 
 const ProjectSection = () => {
   return (
@@ -36,7 +37,7 @@ const ProjectSection = () => {
                     </div>
                   ) : (
                     // Regular project image
-                    <img
+                    <Image
                       src={typeof project.image === 'string' ? project.image : project.image.src}
                       alt={project.alt || project.title}
                       className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
@@ -59,7 +60,7 @@ const ProjectSection = () => {
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.techStack.map((tech, index) => (
-                    <img
+                    <Image
                       key={index}
                       src={tech.src}
                       alt={tech.alt}

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { techData } from '../../constants/techData';
+import Image from 'next/image';
 
 const Tech = () => {
   const [activeTab, setActiveTab] = useState<'main' | 'all'>('main');
@@ -55,7 +56,7 @@ const Tech = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-rose-500/0 to-rose-500/0 group-hover:from-rose-500/5 group-hover:to-rose-500/10 rounded-xl transition-all duration-300"></div>
               <div className="flex flex-col items-center relative z-10">
                 <div className="w-16 h-16 mb-4 transition-transform duration-300 group-hover:scale-110">
-                  <img
+                  <Image
                     src={`/assets/vectors/${item.src}`}
                     alt={item.alt}
                     className="w-full h-full object-contain filter group-hover:brightness-110"
