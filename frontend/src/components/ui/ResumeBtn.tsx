@@ -2,7 +2,7 @@ import React from 'react';
 import { Download } from 'lucide-react';
 
 const ResumeBtn: React.FC = () => {
-  const PDF_FILE_URL: string = '/VargasIvanChristopher-Resume.pdf';
+  const PDF_FILE_URL: string = '/Resume-VargasIvanChristopher.pdf';
 
   const downloadFileAtURL = (url: string): void => {
     try {
